@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use these results or this software, please cite it as below."
+type: software
+title: "Nieuwland numbers of 175 convex polyhedra, proved in Lean"
+authors:
+  - family-names: Hervay
+    given-names: Bence
+version: "1.0"
+doi: 10.5281/zenodo.24564757
+date-released: 2026-11-26
+license: Apache-2.0
+repository-code: "https://github.com/bence-hervay/nopert-nieuwland-lean"
+url: "https://bence.io/nieuwland-explorer/"
+abstract: >-
+  Lean 4 proofs, built on Mathlib, that decide Rupertness for 175 convex polyhedra (151 Rupert,
+  24 Noperts) and give each its exact Nieuwland number: all 5 Platonic, 13 Archimedean,
+  13 Catalan, and 92 Johnson solids, prisms, antiprisms, their duals, nine triakis tetrahedra,
+  and seven others. For each Rupert solid, Lean proves that the Nieuwland number is the only
+  root of a rational polynomial system in a rational box, that a pose given by the same root
+  fits weakly at that scale, and that no larger copy fits. With an interactive explorer.
+keywords:
+  - Rupert's problem
+  - Rupert property
+  - Nopert
+  - Nieuwland number
+  - convex polyhedra
+  - Lean 4
+  - Mathlib
+  - formal verification

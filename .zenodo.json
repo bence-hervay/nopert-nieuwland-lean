@@ -1,0 +1,24 @@
+{
+  "upload_type": "software",
+  "title": "Nieuwland numbers of 175 convex polyhedra, proved in Lean",
+  "version": "1.0",
+  "creators": [
+    {"name": "Hervay, Bence"}
+  ],
+  "license": "apache-2.0",
+  "description": "<p>Lean 4 proofs, built on Mathlib, that decide Rupertness for 175 convex polyhedra (151 Rupert, 24 Noperts) and give each its exact Nieuwland number ν: all 5 Platonic, 13 Archimedean, 13 Catalan, and 92 Johnson solids, prisms, antiprisms, their duals, nine triakis tetrahedra, and seven others. For each Rupert solid, Lean proves that ν is the only root of a rational polynomial system in a rational box, that a pose given by the same root fits weakly at scale ν, and that no larger copy fits. For each Nopert, Lean proves that no copy fits, so ν = 1.</p><p>Files:</p><ul><li><code>nopert-nieuwland-lean-1.0.zip</code>: the repository (<a href=\"https://github.com/bence-hervay/nopert-nieuwland-lean\">github.com/bence-hervay/nopert-nieuwland-lean</a>) at this version: the definitions, the shared library, each solid's statements and proofs, the scripts, and the explorer. Its README.md says what is proved and how to check it.</li><li><code>certificates.zip</code>: each solid's certificate, one <code>certificates/&lt;Family&gt;.&lt;Solid&gt;.tar.xz</code> per solid, the same files as the GitHub release <code>certificates</code> (over 50 GB of Lean unpacked). Each piece's size and SHA-256 are in the solid's <code>Certificates/manifest.json</code>.</li><li><code>SHA256SUMS</code>: the SHA-256 of both zips and of every archive inside <code>certificates.zip</code>.</li></ul><p>To check a solid from this record: unpack both zips in one folder, then, in <code>nopert-nieuwland-lean-1.0/</code>, run <code>python3 scripts/check.py Polyhedra/Platonic/Cube --jobs 4 --source ../certificates</code>.</p><p>The interactive explorer: <a href=\"https://bence.io/nieuwland-explorer/\">bence.io/nieuwland-explorer</a>.</p>",
+  "keywords": [
+    "Rupert's problem",
+    "Rupert property",
+    "Nopert",
+    "Nieuwland number",
+    "convex polyhedra",
+    "Lean 4",
+    "Mathlib",
+    "formal verification"
+  ],
+  "related_identifiers": [
+    {"identifier": "https://github.com/bence-hervay/nopert-nieuwland-lean", "relation": "isSupplementTo", "scheme": "url", "resource_type": "software"},
+    {"identifier": "https://bence.io/research/nieuwland-numbers/", "relation": "isDocumentedBy", "scheme": "url"}
+  ]
+}

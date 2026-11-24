@@ -1,0 +1,18 @@
+{
+ "top": "Polyhedra.Other.Tom7ChippedM18.Result",
+ "kind": "Nopert",
+ "statements": [
+  {
+   "name": "Nieuwland.Other.Tom7ChippedM18.isNopert",
+   "type": "Nieuwland.Polyhedron.IsNopert Nieuwland.Other.Tom7ChippedM18.polyhedron"
+  },
+  {
+   "name": "Nieuwland.Other.Tom7ChippedM18.nieuwland_eq_one",
+   "type": "Nieuwland.Polyhedron.nieuwland Nieuwland.Other.Tom7ChippedM18.polyhedron = 1"
+  },
+  {
+   "name": "Nieuwland.Other.Tom7ChippedM18.interior_nonempty",
+   "type": "(interior (Nieuwland.Polyhedron.hull Nieuwland.Other.Tom7ChippedM18.polyhedron)).Nonempty"
+  }
+ ]
+}

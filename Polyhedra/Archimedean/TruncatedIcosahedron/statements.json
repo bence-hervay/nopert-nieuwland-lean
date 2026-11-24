@@ -1,0 +1,34 @@
+{
+ "top": "Polyhedra.Archimedean.TruncatedIcosahedron.NuPolynomial",
+ "kind": "Rupert",
+ "statements": [
+  {
+   "name": "Nieuwland.Archimedean.TruncatedIcosahedron.isRupert",
+   "type": "Nieuwland.Polyhedron.IsRupert Nieuwland.Archimedean.TruncatedIcosahedron.polyhedron"
+  },
+  {
+   "name": "Nieuwland.Archimedean.TruncatedIcosahedron.isOptimum",
+   "type": "Nieuwland.Polyhedron.IsOptimum Nieuwland.Archimedean.TruncatedIcosahedron.polyhedron Nieuwland.Archimedean.TruncatedIcosahedron.system Nieuwland.Archimedean.TruncatedIcosahedron.layout"
+  },
+  {
+   "name": "Nieuwland.Archimedean.TruncatedIcosahedron.hasUniqueRoot",
+   "type": "Nieuwland.PolynomialSystem.HasUniqueRoot Nieuwland.Archimedean.TruncatedIcosahedron.system"
+  },
+  {
+   "name": "Nieuwland.Archimedean.TruncatedIcosahedron.one_lt_nieuwland",
+   "type": "1 < Nieuwland.Polyhedron.nieuwland Nieuwland.Archimedean.TruncatedIcosahedron.polyhedron"
+  },
+  {
+   "name": "Nieuwland.Archimedean.TruncatedIcosahedron.enclosedBy",
+   "type": "Nieuwland.PolynomialSystem.EnclosedBy Nieuwland.Archimedean.TruncatedIcosahedron.system Nieuwland.Archimedean.TruncatedIcosahedron.layout Nieuwland.Archimedean.TruncatedIcosahedron.enclosure (1 / 2 ^ 100)"
+  },
+  {
+   "name": "Nieuwland.Archimedean.TruncatedIcosahedron.interior_nonempty",
+   "type": "(interior (Nieuwland.Polyhedron.hull Nieuwland.Archimedean.TruncatedIcosahedron.polyhedron)).Nonempty"
+  },
+  {
+   "name": "Nieuwland.Archimedean.TruncatedIcosahedron.nu_polynomial",
+   "type": "Nieuwland.polyEval [9909483771415953723059055022225, 0, -1100467790013946451493795575202015, 0, 33727650165032149156534094594870104, 0, -352144628944029016214736367080370827, 0, 1935994847968847665602322979652797875, 0, -6599135534124882707608000646027763296, 0, 15123040146475081007415729588083812200, 0, -24374809411858109701622528269722073899, 0, 28335432488510256142624045950079018118, 0, -24043835908729451390391051571907695272, 0, 14919531283523126683842385301199494901, 0, -6723125585503173448354854107994825513, 0, 2166977095726894524307128219678923571, 0, -487928921271825596753916111714630300, 0, 74219620600297357536227628532571010, 0, -7264326223048157871717793722489297, 0, 424522238180235311868681103691715, 0, -12927444849216006878449563710157, 0, 147218097803559259807206749961] (Nieuwland.Polyhedron.nieuwland Nieuwland.Archimedean.TruncatedIcosahedron.polyhedron) = 0"
+  }
+ ]
+}
